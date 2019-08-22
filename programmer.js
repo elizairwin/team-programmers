@@ -1,5 +1,8 @@
-//refer to activity 10
+//referred to class activity 10
+
+//Class constructor for Programmer
 class Programmer {
+    //required info
     constructor(name, position, age, language) {
     this.name = name;
     this.position = position; 
@@ -7,6 +10,7 @@ class Programmer {
     this.language = language; 
 }
 
+    //print stats function to be used in team.js
     printStats() {
         console.log(`
             Name: ${this.name}
@@ -17,4 +21,6 @@ class Programmer {
             `);
         };
 }
+
+//line of code learned in class for exporting
 module.exports = Programmer;
